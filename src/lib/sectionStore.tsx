@@ -20,7 +20,7 @@ import { getRawSetting, setSetting } from './settingStore';
 import { newId } from './postStore';
 
 export type SectionKind =
-  | 'gallery' | 'roadview' | 'trpg' | 'dotori' | 'playlog' | 'diary' | 'threads' | 'sched' | 'chars' | 'memo' | 'videos';
+  | 'gallery' | 'roadview' | 'trpg' | 'dotori' | 'playlog' | 'diary' | 'comm' | 'threads' | 'sched' | 'chars' | 'memo' | 'videos';
 
 /** 섹션 종류별 기본 정보 — 설정 탭 이름과 페이지 주소 */
 export const SECTION_META: Record<SectionKind, { label: string; href: string; defName: string }> = {
